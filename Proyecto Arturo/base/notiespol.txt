@@ -1,0 +1,124 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tiempo de generación: 14-03-2011 a las 23:00:42
+-- Versión del servidor: 5.1.36
+-- Versión de PHP: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Base de datos: `noticiero`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `empleado`
+--
+
+DROP TABLE IF EXISTS `empleado`;
+CREATE TABLE IF NOT EXISTS `empleado` (
+  `idempleado` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombres` varchar(50) NOT NULL,
+  `apellidos` varchar(50) NOT NULL,
+  `cedula` int(10) NOT NULL,
+  `direccion` varchar(80) NOT NULL,
+  `user` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `telefono` int(9) NOT NULL,
+  `rol` varchar(20) NOT NULL,
+  `estado` varchar(10) NOT NULL,
+  PRIMARY KEY (`idempleado`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+
+--
+-- Volcar la base de datos para la tabla `empleado`
+--
+
+INSERT INTO `empleado` (`idempleado`, `nombres`, `apellidos`, `cedula`, `direccion`, `user`, `password`, `telefono`, `rol`, `estado`) VALUES
+(1, 'espol', 'espol', 91215597, 'Guys', 'daw', '1234', 91215597, 'espol', 'ctivo'),
+(2, 'Arturo', 'Tumbsco', 912155970, 'GuyAs', 'admin', '1234', 91215597, 'Administrador', 'activo'),
+(3, 'Sebstin', 'Delgdo', 91215597, 'Durn', 'seb', '12', 98667770, 'Editor', 'Activo');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `noticia`
+--
+
+DROP TABLE IF EXISTS `noticia`;
+CREATE TABLE IF NOT EXISTS `noticia` (
+  `idnoticia` int(10) unsigned NOT NULL,
+  `idempleado` int(10) unsigned NOT NULL,
+  `idseccion` int(10) unsigned NOT NULL,
+  `idrecurso_multimedio` int(10) unsigned NOT NULL,
+  `fecha_noticia` date NOT NULL,
+  `provincia` varchar(20) NOT NULL,
+  `canton` varchar(20) NOT NULL,
+  `direccion` varchar(50) NOT NULL,
+  `titulo` varchar(20) NOT NULL,
+  `noticia_corta` text NOT NULL,
+  `noticia_completa` text NOT NULL,
+  `palabra_clave` text NOT NULL,
+  `estado` varchar(20) NOT NULL,
+  `latitud` int(20) unsigned NOT NULL,
+  `longitud` int(20) unsigned NOT NULL,
+  PRIMARY KEY (`idnoticia`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcar la base de datos para la tabla `noticia`
+--
+
+INSERT INTO `noticia` (`idnoticia`, `idempleado`, `idseccion`, `idrecurso_multimedio`, `fecha_noticia`, `provincia`, `canton`, `direccion`, `titulo`, `noticia_corta`, `noticia_completa`, `palabra_clave`, `estado`, `latitud`, `longitud`) VALUES
+(1, 1, 2, 1, '2011-02-16', 'Guayas', 'Guayauil', 'Guayas', 'Barcelona Campion 20', 'El idolo del Ecuador logro despues de 13\r\naños el titulo de campeon', 'El idolo del Ecuador es el nuevo campion \r\ndel campeonato Ecuatoriano de Futbol, la alegria de la hinchada era evidente ue muchos de ellos lloraraban de la emocion el partido inicio con un Barcelona encarador dispuesto a ganar el partido desde el comien ya a los cinco minutos hubo un remate de afuera del area de Pedro Larrea pue ya anunciab lo ue Barcelona deseaba este fue un partido muy abierto donde el campeon 2010 Ligan como era de esperarce trataba de ganar el partido desde el principio ', 'barcelona', 'activo', 12, 12),
+(2, 1, 1, 1, '2011-02-12', 'Salinas', 'Santa Elena', 'Santa Elena', 'Muerte de Jaime Nebo', 'La muerte de Jaime Nebot Saidi alcalde de la ciudad de Guya', 'La muerte de Jaime Nebot Saidi alcalde de la ciudad de Guya', 'Nebot ', 'tivo', 123, 123),
+(3, 1, 2, 1, '2011-02-13', 'Sao Paulo', 'Santa', 'Bril', 'Fatal accidente', 'Trgica merte de mnesd', 'dfdsd', 'fds', 'fds', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `recurso_multimedio`
+--
+
+DROP TABLE IF EXISTS `recurso_multimedio`;
+CREATE TABLE IF NOT EXISTS `recurso_multimedio` (
+  `idrecurso_multimedio` int(10) unsigned NOT NULL,
+  `tipo` varchar(20) NOT NULL,
+  `archivo` text NOT NULL,
+  `descripcion` text NOT NULL,
+  `estado` varchar(20) NOT NULL,
+  PRIMARY KEY (`idrecurso_multimedio`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcar la base de datos para la tabla `recurso_multimedio`
+--
+
+INSERT INTO `recurso_multimedio` (`idrecurso_multimedio`, `tipo`, `archivo`, `descripcion`, `estado`) VALUES
+(1, 'archivo', 'c:\\Documents and Settings\\All Users.WINDOWS\\Documentos\\erticaylegislacioni.docx', 'archivo subido', 'activo');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `seccion`
+--
+
+DROP TABLE IF EXISTS `seccion`;
+CREATE TABLE IF NOT EXISTS `seccion` (
+  `idseccion` int(10) unsigned NOT NULL,
+  `nombre` varchar(20) NOT NULL,
+  `estado` varchar(20) NOT NULL,
+  PRIMARY KEY (`idseccion`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcar la base de datos para la tabla `seccion`
+--
+
+INSERT INTO `seccion` (`idseccion`, `nombre`, `estado`) VALUES
+(1, 'Farandula', 'activo'),
+(2, 'Deportes', 'activo');

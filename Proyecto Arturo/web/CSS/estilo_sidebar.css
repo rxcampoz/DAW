@@ -1,0 +1,60 @@
+/* 
+    Document   : estilo_sidebar
+    Created on : 13/02/2011, 07:58:31 PM
+    Author     : Xtratech
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#sidebar1 {
+    left:0px;
+    right:0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+}
+
+.sidebar {
+
+	width: 200px;
+	padding: 0 0 0 21px;
+}
+.sidebar a {
+	color: #959595;
+}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li {
+	padding: 0 0 20px 0;
+	border-bottom: 2px dotted #B1B1B1;
+
+}
+
+.sidebar h2,h3 {
+	margin: 0 0 10px 0;
+	padding: 10px 15px 10px 15px;
+	background: #111111;
+	font-size: 16px;
+	font-weight: normal;
+	color: #DEDEDE;
+	text-align:center;
+}
+.sidebar h2{
+    text-transform:uppercase;
+
+}

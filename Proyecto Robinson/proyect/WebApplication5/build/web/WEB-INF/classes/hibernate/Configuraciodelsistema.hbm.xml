@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-sep-2011 10:49:45 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="hibernate.Configuraciodelsistema" table="configuraciodelsistema" catalog="daw2">
+        <id name="fecha" type="string">
+            <column name="fecha" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="porcentajeDefinidoDelIvaValor" type="string">
+            <column name="PorcentajeDefinidoDelIvaValor" length="20" />
+        </property>
+        <property name="trimestre1" type="string">
+            <column name="Trimestre1" length="20" />
+        </property>
+        <property name="trimestre2" type="string">
+            <column name="Trimestre2" length="20" />
+        </property>
+        <property name="trimestre3" type="string">
+            <column name="Trimestre3" length="20" />
+        </property>
+        <property name="trimestre4" type="string">
+            <column name="Trimestre4" length="20" />
+        </property>
+        <property name="siCausaImpuestoIr" type="string">
+            <column name="Si_causa_impuesto_ir" length="20" />
+        </property>
+        <property name="siCausaImpuestoIvaMensual" type="string">
+            <column name="Si_causa_impuesto_ivaMensual" length="20" />
+        </property>
+        <property name="siCausaImpuestoIvaSemestral" type="string">
+            <column name="Si_causa_impuesto_ivaSemestral" length="20" />
+        </property>
+        <property name="noCausaImpuestoIr" type="string">
+            <column name="No_causa_impuesto_ir" length="20" />
+        </property>
+        <property name="noCausaImpuestoIvaMensual" type="string">
+            <column name="No_causa_impuesto_ivaMensual" length="20" />
+        </property>
+        <property name="noCausaImpuestoIvaSemestral" type="string">
+            <column name="No_causa_impuesto_ivaSemestral" length="20" />
+        </property>
+        <property name="digito1ipuestoAlaRentaPersonasNaturales" type="string">
+            <column name="Digito1IpuestoALaRentaPersonasNaturales" length="20" />
+        </property>
+        <property name="digito1ivaMensual" type="string">
+            <column name="Digito1IvaMensual" length="20" />
+        </property>
+        <property name="digito1ivaSemestre1" type="string">
+            <column name="Digito1IvaSemestre1" length="20" />
+        </property>
+        <property name="digito1ivaSemestre2" type="string">
+            <column name="Digito1IvaSemestre2" length="20" />
+        </property>
+        <property name="digito2ipuestoAlaRentaPersonasNaturales" type="string">
+            <column name="Digito2IpuestoALaRentaPersonasNaturales" length="20" />
+        </property>
+        <property name="digito2ivaMensual" type="string">
+            <column name="Digito2IvaMensual" length="20" />
+        </property>
+        <property name="digito2ivaSemestre1" type="string">
+            <column name="Digito2IvaSemestre1" length="20" />
+        </property>
+        <property name="digito2ivaSemestre2" type="string">
+            <column name="Digito2IvaSemestre2" length="20" />
+        </property>
+        <property name="digito3ipuestoAlaRentaPersonasNaturales" type="string">
+            <column name="Digito3IpuestoALaRentaPersonasNaturales" length="20" />
+        </property>
+        <property name="digito3ivaMensual" type="string">
+            <column name="Digito3IvaMensual" length="20" />
+        </property>
+        <property name="digito3ivaSemestre1" type="string">
+            <column name="Digito3IvaSemestre1" length="20" />
+        </property>
+        <property name="digito3ivaSemestre2" type="string">
+            <column name="Digito3IvaSemestre2" length="20" />
+        </property>
+        <property name="digito4ipuestoAlaRentaPersonasNaturales" type="string">
+            <column name="Digito4IpuestoALaRentaPersonasNaturales" length="20" />
+        </property>
+        <property name="digito4ivaMensual" type="string">
+            <column name="Digito4IvaMensual" length="20" />
+        </property>
+        <property name="digito4ivaSemestre1" type="string">
+            <column name="Digito4IvaSemestre1" length="20" />
+        </property>
+        <property name="digito4ivaSemestre2" type="string">
+            <column name="Digito4IvaSemestre2" length="20" />
+        </property>
+        <property name="porcentageSobreLaBaseParaElPagoDelImpuestoAlaRenta" type="string">
+            <column name="PorcentageSobreLaBaseParaElPagoDelImpuestoALaRenta" length="20" />
+        </property>
+        <property name="porcentajeDelIrRetenidoPorDefauld" type="string">
+            <column name="PorcentajeDelIrRetenidoPorDefauld" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

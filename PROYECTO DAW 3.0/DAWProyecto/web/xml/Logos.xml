@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<logo>
+		<number>0</number>
+		<img-path>imagenes/logo1.png</img-path>
+	</logo>
+	<logo>
+		<number>1</number>
+		<img-path>imagenes/choloMachine.gif</img-path>
+	</logo>
+	<logo>
+		<number>2</number>
+		<img-path>imagenes/rage.jpg</img-path>
+	</logo>
+	<logo>
+		<number>3</number>
+		<img-path>imagenes/clogo.jpg</img-path>
+	</logo>
+	<logo>
+		<number>4</number>
+		<img-path>imagenes/n1.jpg</img-path>
+	</logo>
+	<logo>
+		<number>5</number>
+		<img-path>imagenes/logo5.jpg</img-path>
+	</logo>
+	<logo>
+		<number>6</number>
+		<img-path>imagenes/logo3.png</img-path>
+	</logo>
+	<logo>
+		<number>7</number>
+		<img-path>imagenes/logo7.jpg</img-path>
+	</logo>
+</data>

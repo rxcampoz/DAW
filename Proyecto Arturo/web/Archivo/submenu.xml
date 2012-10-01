@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : SubMenu.xml
+    Created on : 9 de febrero de 2011, 12:09 PM
+    Author     : Xtratech
+    Description:
+        Purpose of the document follows.
+-->
+
+<submenus>
+   <submenu>
+        <titulo>Empleado</titulo>
+
+   </submenu>
+   <submenu>
+        <titulo>Seccion de Noticia</titulo>
+   </submenu>
+   <submenu>
+        <titulo>Recursos Multimedios</titulo>
+   </submenu>
+   <submenu>
+        <titulo>Noticia</titulo>
+   </submenu>
+</submenus>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-sep-2011 10:49:45 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="hibernate.Representante" table="representante" catalog="daw2">
+        <id name="numeroDeIdentificacionDelContribuyente" type="string">
+            <column name="numero_de_identificacion_del_contribuyente" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="nombre" length="20" />
+        </property>
+        <property name="apellido" type="string">
+            <column name="apellido" length="20" />
+        </property>
+        <property name="tipoDeIdentificacionDelContribuyenteORepresentanteLegal" type="string">
+            <column name="tipo_de_identificacion_del_contribuyente_o_representante_legal" length="20" />
+        </property>
+        <property name="correoElectronico" type="string">
+            <column name="correo_electronico" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

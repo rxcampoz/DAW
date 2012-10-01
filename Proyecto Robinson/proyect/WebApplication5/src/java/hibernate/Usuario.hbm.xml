@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-sep-2011 10:49:45 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="hibernate.Usuario" table="usuario" catalog="daw2">
+        <id name="numeroDeIdentificacionDelUsuario" type="string">
+            <column name="numero_de_identificacion_del_usuario" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="nombre" length="20" />
+        </property>
+        <property name="apellido" type="string">
+            <column name="apellido" length="20" />
+        </property>
+        <property name="tipoDeIdentificacionDelUsuario" type="string">
+            <column name="Tipo_de_identificacion_del_usuario" length="20" />
+        </property>
+        <property name="numeroDeIdentificacionDelContribuyente" type="string">
+            <column name="numero_de_identificacion_del_contribuyente" length="20" />
+        </property>
+        <property name="clave" type="string">
+            <column name="clave" length="20" />
+        </property>
+        <property name="razonSocial" type="string">
+            <column name="razon_social" length="50" />
+        </property>
+        <property name="periodoDeDeclaracionDeIva" type="string">
+            <column name="periodo_de_declaracion_de_IVA" length="20" />
+        </property>
+        <property name="correoElectronico" type="string">
+            <column name="correo_electronico" length="50" />
+        </property>
+        <property name="provincia" type="string">
+            <column name="provincia" length="20" />
+        </property>
+        <property name="ciudad" type="string">
+            <column name="ciudad" length="20" />
+        </property>
+        <property name="alertaCorreoIva" type="string">
+            <column name="alertaCorreoIVA" length="20" />
+        </property>
+        <property name="alertaCorreoIr" type="string">
+            <column name="alertaCorreoIR" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<provincias>
+	<provincia>
+	  <id>01</id>
+	  <nombre_provincia>Azuay</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>02</id>
+	  <nombre_provincia>Bolívar</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>03</id>
+	  <nombre_provincia>Cañar</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>04</id>
+	  <nombre_provincia>Carchi</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>05</id>
+	  <nombre_provincia>Chimborazo</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>06</id>
+	  <nombre_provincia>Cotopaxi</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>07</id>
+	  <nombre_provincia>Esmeraldas</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>08</id>
+	  <nombre_provincia>Galápagos</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>09</id>
+	  <nombre_provincia>Guayas</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>10</id>
+	  <nombre_provincia>Imbabura</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>11</id>
+	  <nombre_provincia>Loja</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>12</id>
+	  <nombre_provincia>Manabí</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>13</id>
+	  <nombre_provincia>Morona Santiago</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>14</id>
+	  <nombre_provincia>Napo</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>15</id>
+	  <nombre_provincia>Orellana</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>16</id>
+	  <nombre_provincia>El Oro</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>17</id>
+	  <nombre_provincia>Pastaza</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>18</id>
+	  <nombre_provincia>Pichincha</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>19</id>
+	  <nombre_provincia>Los Rios</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>20</id>
+	  <nombre_provincia>Sucumbios</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>21</id>
+	  <nombre_provincia>Tungurahua</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>22</id>
+	  <nombre_provincia>Zamora Chinchipe</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>23</id>
+	  <nombre_provincia>Sto. Domin. Tsáchilas</nombre_provincia>
+	</provincia>
+	<provincia>
+	  <id>24</id>
+	  <nombre_provincia>Santa Elena</nombre_provincia>
+	</provincia>
+</provincias>

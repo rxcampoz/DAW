@@ -1,0 +1,30 @@
+<contactos>
+   <contacto>
+        <nombre>Arturo Tumbaco Jara</nombre>
+        <descripcion>Estudiante de 3 Nivel E.S.P.O.L</descripcion>
+        <carrera>Ingeniería en Ciencias Computacionales<br/></carrera>
+        <imagen>narcisa.JPG</imagen>
+   </contacto>
+
+   <contacto>
+        <nombre>Xavier Muñoz</nombre>
+        <descripcion>Estudiante de 4 Nivel E.S.P.O.L</descripcion>
+        <carrera>Ingeniería en Ciencias Computacionales<br/></carrera>
+        <imagen>gonzalo.jpg</imagen>
+   </contacto>
+
+   <contacto>
+        <nombre>Luis Alfredo Pincay</nombre>
+        <descripcion>Estudiante de 3 Nivel E.S.P.O.L</descripcion>
+        <carrera>Ingeniería en Ciencias Computacionales<br/></carrera>
+        <imagen>luis.jpg</imagen>
+   </contacto>
+
+   <contacto>
+        <nombre>Oficina</nombre>
+        <descripcion>Guayaquil</descripcion>
+        <carrera>Industrial Asesoria<br/></carrera>
+        <imagen>arturo.JPG</imagen>
+   </contacto>
+
+</contactos>

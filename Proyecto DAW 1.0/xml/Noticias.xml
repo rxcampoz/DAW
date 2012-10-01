@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<noticia>
+		<titulo>Inspirados en Volver al futuro 2</titulo>
+		<articulo>Todos hemos visto la famosa escena de volver al futuro 2 en donde Marty Mcfly, el personaje que interpretó el actor Michael J. Fox, usa unos tenis que abrochan por si solos, pero ¿acaso Nike tiene planeado lanzarlos al mercado?</articulo>
+		<img-path>imagenes/n1.jpg</img-path>
+		<link>http://zavordigital.com/blog/2011/09/%C2%BFnike-lanzara-los-tenis-inspirados-en-volver-al-futuro-2/</link>
+	</noticia>
+	<noticia>
+		<titulo>Facebook y Twitter?</titulo>
+		<articulo>Facebook y Twitter, las redes sociales más populares en la actualidad, ya cuentan con un modelo de zapatos propio, sí! oíste bien, zapatos de Facebook y Twitter.  ¿A quien se le ocurrió esta idea que para muchos será descabellada, pero, para otros sencillamente genial? pues hablamos de Adidas quien al parecer lanzará los zapatos inicialmente al mercado estadounidense.</articulo>
+		<img-path>imagenes/n2.jpg</img-path>
+		<link>http://www.novaeragc.com/zapatos-adidas-de-facebook-y-twitter/</link>
+	</noticia>
+	<noticia>
+		<titulo>MENOS PESO MÁS FAAS RUNNING</titulo>
+		<articulo>Descubre el nuevo modelo de tenis PUMA desarrollado con la ayuda del hombre más rápido del mundo, Usain Bolt, en uno de los laboratorios naturales donde se crean los líderes en el mundo de las carreras de velocidad: Jamaica!</articulo>
+		<img-path>imagenes/n3.jpg</img-path>
+		<link>http://latam.puma.com/running/posts/corre-mas-ligero-menos-peso-mas-faas</link>
+	</noticia>
+	<noticia>
+		<titulo>Reebok por un dólar?</titulo>
+		<articulo>La marca deportiva Adidas está desarrollando unas zapatillas deportivas Reebok para vender a bajo precio en zonas rurales de India, posiblemente por tan sólo un dólar. ¿Cómo lo hará?</articulo>
+		<img-path>imagenes/n4.jpg</img-path>
+		<link>http://www.bbc.co.uk/mundo/noticias/2011/11/111126_adidas_zapatillas_dolar_rg.shtml</link>
+	</noticia>
+</data>

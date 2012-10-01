@@ -1,0 +1,48 @@
+/* 
+    Document   : acordeon
+    Created on : 14/09/2011, 09:38:55 AM
+    Author     : VICTOR SAA
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+#contenedor {
+    position:relative;
+    margin-left: 0em;
+    margin-top: 5em;
+    width:150em;
+   
+}
+#contenedor #acordeon{
+    
+    
+     position:relative;
+    margin-left: 0em;
+    margin-top: 5em;
+    
+}
+
+#acordeon ul  li{
+    display:inline;
+    float: left;
+    cursor:pointer;
+    margin-left: .5em;
+
+}
+#acordeon ul li ul li  {
+cursor:pointer;
+display: block;
+margin-left: 1em;
+
+}
+#acordeon ul li ul li:hover {
+background-color: #80cfe2;
+
+}
+

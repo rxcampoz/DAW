@@ -1,0 +1,2 @@
+cambiar clave del postgres en hibernate.cfg
+Prueba de query "mostrar usuarios" muestra los nombres de los usuarios existentes en la BD

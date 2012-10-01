@@ -1,0 +1,303 @@
+/* 
+    Document   : styleMenu
+    Created on : 07/02/2011, 12:33:16 PM
+    Author     : Luis
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* CSS Document */
+html, body1, ul, p{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background:#F4F1DD ;
+    /*#F4F1DD  #FFFF33*/
+}
+
+body1
+{
+color: #666;
+font-size: 12px;
+margin-top: 100px;
+text-align: justify;
+}
+
+#main1{
+	width:1024px;
+	margin:0 auto;
+}
+
+#banner{
+    background-color: transparent;
+    background-image: url(../imagenes/banner.gif);
+    width:1024px;
+    height: 150px;
+    padding-top: 0px;
+    position:relative;
+}
+
+   /* background-color: transparent;
+    background-image: url(../imagenes/banner.gif);
+    width:1024px;
+    height: 150px;
+    padding-top: 0px;
+    position:relative;
+    margin: auto;*
+}
+*/
+
+#header1
+{
+        background-color:#FFFF33;
+	width:1024px;
+	height:99px;
+}
+#content
+{
+	background-color:yellow;
+	width:1024px;
+	height:600px;
+	float:left;
+	
+}
+#fotos{
+    position:relative;
+    top:10px;
+    left:10px;
+}
+#contenedorfoto{
+    position:relative;
+    top:70px;
+    left:130px;
+    width: 290px;
+    height: 260px;
+    background-color:olive;
+}
+#content_lateral_a
+{
+    top:15px;
+    background-color:gray;
+    width:195px;
+    height:590px;
+    float:left;
+}
+#content-lateral_b{
+   /*position: relative;*/
+    top:15px;
+    background-color:orange;
+    width:130px;
+    height:590px;
+    float:right;
+}
+#content-central{
+    position:relative;
+    top:50px;
+    left:100px;
+    height:510px;
+    width:850px;
+    background-color: yellow;
+    /*#F4F1DD*/
+}
+
+#content-centro
+{
+	background-color: #48DD10;
+        background-image: url(../imagenes/central.jpg);
+	width:330px;
+	height:400px;
+	/*float:left;*/
+        position: absolute;
+        top: 16px;
+        right: 0px;
+        bottom: 0px;
+        left: 347px;
+
+}
+
+#caja_menu{
+    position:relative;
+    top:180px;
+    left:100px;
+    height:250px;
+    width:200px;
+    background-color:transparent;
+}
+#feature-content {
+        position: relative;
+        top:20px;
+        left:200px;
+        height: 480px;
+        width: 538px;
+        background:maroon;
+        /*#FCFAE9*/
+}
+
+#feature-contentA {
+        position: relative;
+        top:20px;
+        left:40px;
+        height: 480px;
+        width: 538px;
+        background:maroon;
+        /*#FCFAE9*/
+}
+#feature-contentI {
+        position: absolute;
+        top:300px;
+        left:530px;
+        height: 480px;
+        width: 538px;
+        background:maroon;
+        /*#FCFAE9*/
+}
+#derecha{
+    background-color:red;
+    background-image: url(../imagenes/der.jpg);
+    width:330px;
+    height:400px;
+    /*float:left;*/
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    bottom: 0px;
+    left: 762px;
+}
+#izquierda{
+    position: relative;
+    background-color:maroon;
+    background-image: url(../imagenes/izq.jpg);
+    width:280px;
+    height:400px;
+    /*float:left;*/
+    
+    top: 70px;
+    bottom: 0px;
+    left: 50px;
+
+}
+
+#feature {
+        position: relative;
+        top:90px;
+        left:150px;
+        height: 280px;
+        width: 300px;
+        background:maroon;
+        /*#FCFAE9*/
+}
+#wrapperA {
+background-color:#071C71;
+border-bottom:5px solid #000000;
+border-left:5px solid #000000;
+border-right:5px solid #000000;
+height:650px;
+margin:auto;
+position:relative;
+width:80%;
+}
+
+#feature-content p {
+    position: relative;
+    top:40px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: 'Time New Roman',Times,serif;
+    text-align: center;
+    color: purple;
+}
+#menusito{
+    position: relative;
+}
+
+#mapa_Google {
+    height:500px;
+    left:21em;
+    position:absolute;
+    top:0em;
+    width:600px;
+}
+
+#mapita{
+    position: relative;
+}
+
+#feature-contentA p {
+    position: relative;
+    top:40px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: 'Time New Roman',Times,serif;
+    text-align: center;
+    color: white;
+}
+
+#feature-contentA h1 {
+    position: relative;
+    top:40px;
+    padding: 0 10px;
+    font-size: 30px;
+    font-family: 'Time New Roman',Times,serif;
+    text-align: center;
+    color: teal;
+}
+
+/*#feature-content a{
+    float: right;
+    font-size: .6em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}*/
+
+#footer{
+    background-color:orange;
+    width:1024px;
+    height: 25px;
+    padding-top: 0px;
+    margin: auto;
+
+}
+#footer p{
+    top:10px;
+    text-align: center;
+    font: 14px arial;
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+.curved {
+    -ms-border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    behavior:url(border-radius.htc);
+}
+
+body1{padding:0; margin:0; background:url(../imagenes/imagesMenu/main-bg.gif) 0 0 repeat-x #FCFAE6; font:14px/20px Arial, Helvetica, sans-serif; color:#3D3C2C; font-weight:normal;}
+div, p, h1, h2, h3, ul, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+/* TOP PANEL */
+#menu{width:1030px; height:96px; position:relative; margin:0 auto; padding:0;}
+#menu img{width:204px; height:57px; display:block; padding:23px 0 0 6px;}
+/* Menu Panel */
+#menu ul{width:520px; height:96px; display:block; position:absolute; top:0px; right:9px; margin:0; padding:0;}
+#menu ul li{float:left; width:104px; display:block; text-align:center;}
+#menu ul li a{width:104px; height:35px; display:block; font:16px/16px "Trebuchet MS",Arial, Helvetica, sans-serif; color:darkseagreen; background:url(../imagenes/imagesMenu/menu-bg.gif) 0 0 repeat-x #FCFAE9; text-decoration:none; margin:0; padding:61px 0 0 0; }
+#menu ul li a:hover{ width:104px; height:35px; display:block; background: #FF3333; color:#FCFAE9; text-decoration:none;}
+#menu ul li span{width:104px; height:35px; display:block; background:url(../imagenes/imagesMenu/menu-devider1.gif) 100% 0 no-repeat #FCFAE9; color:black; text-decoration:none; padding:61px 0 0 0; line-height:14px;}
+
+
+
+
+
+
+
+

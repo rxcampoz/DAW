@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="daw2"/>
+  <table-filter match-name="detalleingreso"/>
+  <table-filter match-name="proveedor"/>
+  <table-filter match-name="usuario"/>
+  <table-filter match-name="representante"/>
+  <table-filter match-name="facturaegreso"/>
+  <table-filter match-name="cliente"/>
+  <table-filter match-name="facturaingreso"/>
+  <table-filter match-name="comprobanteretencion"/>
+  <table-filter match-name="contrato"/>
+  <table-filter match-name="configuraciodelsistema"/>
+  <table-filter match-name="detalleegreso"/>
+</hibernate-reverse-engineering>

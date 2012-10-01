@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formulario version="0.2">
+<cabecera>
+<codigo_version_formulario>02201102</codigo_version_formulario>
+
+<ruc>0913017554001</ruc>
+<codigo_moneda>1</codigo_moneda>
+
+</cabecera>
+
+<detalle>
+
+<campo numero="31">O</campo>
+
+<campo numero="102">2010</campo>
+
+<campo numero="104"></campo>
+
+<campo numero="105"></campo>
+
+<campo numero="198">0913017554</campo>
+
+<campo numero="201">0913017554001</campo>
+
+<campo numero="202"><![CDATA[GONZALO RAIMUNDO LUZARDO MOROCHO]]></campo>
+
+<campo numero="481">0.00</campo>
+
+<campo numero="491">0.00</campo>
+
+<campo numero="503">0.00</campo>
+
+<campo numero="504">0.00</campo>
+
+<campo numero="505">0.00</campo>
+
+<campo numero="511">23977.96</campo>
+
+<campo numero="512">0.00</campo>
+
+<campo numero="513">0.00</campo>
+
+<campo numero="514">0.00</campo>
+
+<campo numero="515">0.00</campo>
+
+<campo numero="516">0.00</campo>
+
+<campo numero="517">0.00</campo>
+
+<campo numero="518">0.00</campo>
+
+<campo numero="519">0.00</campo>
+
+<campo numero="520">0.00</campo>
+
+<campo numero="521">4730.19</campo>
+
+<campo numero="522">0.00</campo>
+
+<campo numero="523">0.00</campo>
+
+<campo numero="524">0.00</campo>
+
+<campo numero="529">23977.96</campo>
+
+<campo numero="530">0.00</campo>
+
+<campo numero="539">4730.19</campo>
+
+<campo numero="541">3765.23</campo>
+
+<campo numero="549">19247.77</campo>
+
+<campo numero="551">352.05</campo>
+
+<campo numero="559">3413.18</campo>
+
+<campo numero="569">22660.95</campo>
+
+<campo numero="570"></campo>
+
+<campo numero="571">908.00</campo>
+
+<campo numero="572">422.00</campo>
+
+<campo numero="573">1154.06</campo>
+
+<campo numero="574">0.00</campo>
+
+<campo numero="575">165.79</campo>
+
+<campo numero="576">0.00</campo>
+
+<campo numero="577">0.00</campo>
+
+<campo numero="578">0.00</campo>
+
+<campo numero="579">2649.85</campo>
+
+<campo numero="580">2649.85</campo>
+
+<campo numero="581">0.00</campo>
+
+<campo numero="582">0.00</campo>
+
+<campo numero="583">0.00</campo>
+
+<campo numero="584">0.00</campo>
+
+<campo numero="585">0.00</campo>
+
+<campo numero="586">0.00</campo>
+
+<campo numero="587">0.00</campo>
+
+<campo numero="589">0.00</campo>
+
+<campo numero="832">20011.10</campo>
+
+<campo numero="839">1194.16</campo>
+
+<campo numero="841">0.00</campo>
+
+<campo numero="842">1194.16</campo>
+
+<campo numero="843">0.00</campo>
+
+<campo numero="845">0.00</campo>
+
+<campo numero="846">2077.51</campo>
+
+<campo numero="847">0.00</campo>
+
+<campo numero="848">0.00</campo>
+
+<campo numero="849">0.00</campo>
+
+<campo numero="850">0.00</campo>
+
+<campo numero="851">0.00</campo>
+
+<campo numero="852">0.00</campo>
+
+<campo numero="859">0.00</campo>
+
+<campo numero="869">883.35</campo>
+
+<campo numero="871">0.00</campo>
+
+<campo numero="872">0.00</campo>
+
+<campo numero="879">0.00</campo>
+
+<campo numero="890">0.00</campo>
+
+<campo numero="897">0.00</campo>
+
+<campo numero="898">0.00</campo>
+
+<campo numero="899">0.00</campo>
+
+<campo numero="902">0.00</campo>
+
+<campo numero="903">0.00</campo>
+
+<campo numero="904">0.00</campo>
+
+<campo numero="905">0.00</campo>
+
+<campo numero="906">0.00</campo>
+
+<campo numero="907">0.00</campo>
+
+<campo numero="908"></campo>
+
+<campo numero="909">0.00</campo>
+
+<campo numero="910"></campo>
+
+<campo numero="911">0.00</campo>
+
+<campo numero="912"></campo>
+
+<campo numero="913">0.00</campo>
+
+<campo numero="914"></campo>
+
+<campo numero="915">0.00</campo>
+
+<campo numero="916"></campo>
+
+<campo numero="917">0.00</campo>
+
+<campo numero="918"></campo>
+
+<campo numero="919">0.00</campo>
+
+<campo numero="922">89</campo>
+
+<campo numero="999">0.00</campo>
+
+</detalle>
+
+</formulario>

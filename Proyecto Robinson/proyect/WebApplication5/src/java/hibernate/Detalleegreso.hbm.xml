@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-sep-2011 10:49:45 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="hibernate.Detalleegreso" table="detalleegreso" catalog="daw2">
+        <id name="idDetalleEgreso" type="string">
+            <column name="idDetalleEgreso" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="concepto" type="string">
+            <column name="concepto" length="20" />
+        </property>
+        <property name="valor" type="string">
+            <column name="valor" length="20" />
+        </property>
+        <property name="tipo" type="string">
+            <column name="tipo" length="20" />
+        </property>
+        <property name="idContrato" type="string">
+            <column name="idContrato" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

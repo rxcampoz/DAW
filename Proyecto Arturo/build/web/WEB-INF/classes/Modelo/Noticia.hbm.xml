@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 09/02/2011 03:56:37 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="Modelo.Noticia" table="noticia" catalog="noticiero">
+        <id name="idnoticia" type="int">
+            <column name="idnoticia" />
+            <generator class="assigned" />
+        </id>
+        <property name="idempleado" type="int">
+            <column name="idempleado" not-null="true" />
+        </property>
+        <property name="idseccion" type="int">
+            <column name="idseccion" not-null="true" />
+        </property>
+        <property name="idrecursoMultimedio" type="int">
+            <column name="idrecurso_multimedio" not-null="true" />
+        </property>
+        <property name="fechaNoticia" type="date">
+            <column name="fecha_noticia" length="10" not-null="true" />
+        </property>
+        <property name="provincia" type="string">
+            <column name="provincia" length="20" not-null="true" />
+        </property>
+        <property name="canton" type="string">
+            <column name="canton" length="20" not-null="true" />
+        </property>
+        <property name="direccion" type="string">
+            <column name="direccion" length="50" not-null="true" />
+        </property>
+        <property name="titulo" type="string">
+            <column name="titulo" length="20" not-null="true" />
+        </property>
+        <property name="noticiaCorta" type="string">
+            <column name="noticia_corta" length="65535" not-null="true" />
+        </property>
+        <property name="noticiaCompleta" type="string">
+            <column name="noticia_completa" length="65535" not-null="true" />
+        </property>
+        <property name="palabraClave" type="string">
+            <column name="palabra_clave" length="20" not-null="true" />
+        </property>
+        <property name="estado" type="string">
+            <column name="estado" length="20" not-null="true" />
+        </property>
+        <property name="latitud" type="double">
+            <column name="latitud" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="longitud" type="double">
+            <column name="longitud" precision="22" scale="0" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<data>
+	<contenidos>
+		
+		<contenido>
+			<titulo>Historia</titulo>
+			<texto>
+			Cholo Machine desde 1xxx ha incursionado en el Ecuador en la venta de Calzado, y actualmente 
+			somos pioneros en la venta por catalogo. Hoy nuestro calzado lo puede encontrar en cualquier ciudad del 
+			país gracias a la venta por catalogo.
+
+			Cholo Machine es una empresa estructurada tecnológica y administrativamente para atender a un mercado
+			cada vez más competitivo y exigente, que se dedica a la Venta de Calzado, cuyo
+			valor agregado es la garantía que solo nosotros podemos ofrecer frente a un producto de excelente 
+			calidad, y 6 acogedoras tiendas que ponemos a disposición del consumidor. De esta manera somos capaces 
+			de ofrecer productos con alta tecnología, valor agregado y el mejor servicio al cliente.
+
+			Si Busca lo último en moda esta en el lugar indicado gracias a nuestro portal web ahora podrá estar al 
+			día con nuestras nuevas colecciones.
+			</texto>
+		</contenido>
+		<contenido>
+			<titulo>VISION</titulo>
+			<texto>
+			Llegar a calzar a tod@s l@s ecuatorian@s, ofreciéndoles un calzado confortable de calidad 
+			e imponiendo moda a través de las diferentes marcas que distribuimos.
+			</texto>
+		</contenido>
+		<contenido>
+			<titulo>MISION</titulo>
+			<texto>
+			Mediante modernos y funcionales locales que ponemos a disposición del público ofrecer un servicio y 
+			un producto de alta calidad, además de aportar al desarrollo económico de varias familias con nuestro 
+			sistema de venta por catalogo.
+			</texto>
+		</contenido>
+		<acordion-contenido>
+			<img-path>imagenes/ac1.jpg</img-path>
+			<acordion-texto>
+			tecnologia ZigTech. Está tecnologia está en la suela que es en forma zig zag. Lo interesante de está nueva 
+			tecnologia creada por Reebok es que distribuye la energía generada con el impacto del talón hacia la planta del pie, 
+			esto reduce el desgaste de las piernas y genera un impulso hacia adelante.
+			</acordion-texto>
+		</acordion-contenido>
+		<acordion-contenido>
+			<img-path>imagenes/ac2.jpg</img-path>
+			<acordion-texto>
+			Se trata de la evolución de la New Balance 903, diseñada para pronadores leves. Es una muy buena zapatilla de 
+			competición y que debido a su baja amortiguación en la parte delantera de la misma se aconseja para corredores muy rápidos.
+			</acordion-texto>
+		</acordion-contenido>
+		<acordion-contenido>
+			<img-path>imagenes/ac3.jpg</img-path>
+			<acordion-texto>
+			Si amas todas las cosas de los 1970, dale una mirada a estos zapatos clásicos para correr, que llegan directo desde 
+			PUMA Archive. Ya sea que los uses para correr o para estar en movimiento, estarás cómodo y te verás bien.
+			</acordion-texto>
+		</acordion-contenido>
+		<acordion-contenido>
+			<img-path>imagenes/ac4.jpg</img-path>
+			<acordion-texto>
+			La Nike Air Pegasus es posiblemente el modelo más emblemático de la historia de Running, esta edición conmemora el 
+			25 aniversario del modelo Pegasus creado por Mark Parker en 1983.
+			</acordion-texto>
+		</acordion-contenido>
+		
+		
+	</contenidos>
+</data>

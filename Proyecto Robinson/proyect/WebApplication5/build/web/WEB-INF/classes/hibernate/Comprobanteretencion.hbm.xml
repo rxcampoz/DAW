@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-sep-2011 10:49:45 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="hibernate.Comprobanteretencion" table="comprobanteretencion" catalog="daw2">
+        <id name="numeroComprobanteRetencion" type="string">
+            <column name="numeroComprobanteRetencion" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="mes" type="string">
+            <column name="mes" length="20" />
+        </property>
+        <property name="anio" type="string">
+            <column name="anio" length="20" />
+        </property>
+        <property name="baseImponible" type="string">
+            <column name="baseImponible" length="20" />
+        </property>
+        <property name="impuesto" type="string">
+            <column name="impuesto" length="20" />
+        </property>
+        <property name="porcentaje" type="string">
+            <column name="porcentaje" length="20" />
+        </property>
+        <property name="totalRetenio" type="string">
+            <column name="totalRetenio" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

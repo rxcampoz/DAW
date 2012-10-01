@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-sep-2011 10:49:45 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="hibernate.Contrato" table="contrato" catalog="daw2">
+        <id name="idContrato" type="string">
+            <column name="idContrato" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="dia" type="string">
+            <column name="dia" length="20" />
+        </property>
+        <property name="mes" type="string">
+            <column name="mes" length="20" />
+        </property>
+        <property name="anio" type="string">
+            <column name="anio" length="20" />
+        </property>
+        <property name="empresa" type="string">
+            <column name="empresa" length="50" />
+        </property>
+        <property name="liquidoRecivido" type="string">
+            <column name="liquidoRecivido" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

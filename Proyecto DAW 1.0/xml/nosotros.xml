@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : nosotros.xml
+    Created on : 29 de noviembre de 2011, 19:10
+    Author     : User
+    Description:
+        Purpose of the document follows.
+-->
+
+<data>
+    <contenidos>
+
+		<quienessomos>
+			<titulo>Quienes Somos</titulo>
+			<texto>
+			Cholo machine Sports es una tienda de deportes especialista en running técnico y en biomecánica del pie, 
+                        nacida en el 2011 con la filosofía de ofrecer al cliente los productos de la mayor calidad a los 
+                        mejores precios junto con el mejor servicio y asesoramiento posible en todos los sentidos. 
+                        
+                        En nuestro centro de investigaciones, nos dedicamos a la realización de estudios de la pisada y 
+                        biomecánica del pie, para ayudar a los corredores a solucionar y prevenir todo tipo de problemas 
+                        al andar o al correr encontrando el calzado más adecuado para ellos, razón por la que nos visita gente 
+                        de toda el Ecuador diariamente.
+			</texto>
+		</quienessomos>
+		
+                <visitanos>
+                    <titulo>Visitanos</titulo>
+                    <texto>
+                    Si deseas visitarnos puedes hacerlo en los siguientes centros comerciales:
+                    
+                    Mall del Sol
+                    San Marino
+                    La Rotonda
+                    Riocentro Sur
+                    Unicentro 
+                    Alban Borja
+                    </texto>
+                 </visitanos>
+                 
+                 <responsabilidad>
+                      <titulo>Responsabilidad social</titulo>
+                    <texto>
+                   A lo largo de la historia hemos hecho constar que somos una empresa comprometida 
+                   con nuestra sociedad; es por eso que hemos tenido el privilegio de apoyar distintas 
+                   causas con la ayuda de todos nuestros clientes.
+
+                    Cholo Machine se ha caracterizado por llevar a cabo diversos esfuerzos y acciones 
+                    como campañas de reforestación y trabajar en conjunto con instituciones de 
+                    beneficencia que apoyan e impulsan el desarrollo y bienestar de los sectores 
+                    más vulnerables de la sociedad. También ha estado siempre presente para apoyar 
+                    en situaciones de emergencia y desastres naturales que se han vivido en nuestro 
+                    país, apoyando a los afectados a través de programas de donación de calzado, 
+                    fortaleciendo así el compromiso de Andrea con Ecuador.
+                    Estamos convencidos de que uniendo esfuerzos podemos lograr aún más y con el apoyo 
+                    de todos nuestros clientes.
+
+                    </texto>
+                     </responsabilidad>
+		
+		
+	</contenidos>
+        <contenidos>
+		
+		<quienessomos>
+			<titulo>About Us</titulo>
+			<texto>
+			Cholo Machine Sports is a sports store specializing in running technical and foot biomechanics, 
+                        born in 2011 with the philosophy of offering the customer the highest quality products at the best 
+                        prices with the best possible service and advice on all senses.
+
+                        In our research center we are dedicated to studies of the tread and biomechanics
+                        of the foot to help runners to solve and prevent all kinds of trouble when walking or 
+                        running shoes finding the most suitable for them, why people who 
+                        visit us throughout the day Ecuador.
+			</texto>
+		</quienessomos>
+		
+                <visitanos>
+                    <titulo>Visit Us</titulo>
+                    <texto>
+                    If you want to visit you can do in the following shopping centers:
+
+                    Mall del Sol
+                    San Marino
+                    the Rotunda
+                    South Riocentro
+                    Unicentro
+                    Alban Borja
+                    </texto>
+                 </visitanos>
+		
+	</contenidos>
+       
+       <imagenes>
+	<imagen>
+		<path>img/logo4.png</path>
+		<alt>b1</alt>
+	</imagen>
+	<imagen>
+		<path>img3/1306849305589U31.jpg</path>
+		<alt>b2</alt>
+	</imagen>
+	<imagen>
+		<path>img3/1306849305589U31.jpg</path>
+		<alt>b3</alt>
+	</imagen>
+	
+</imagenes>
+</data>

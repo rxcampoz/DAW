@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-sep-2011 10:49:45 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="hibernate.Facturaingreso" table="facturaingreso" catalog="daw2">
+        <id name="numeroFactura" type="string">
+            <column name="numeroFactura" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="tipoFactura" type="string">
+            <column name="tipoFactura" length="20" />
+        </property>
+        <property name="dia" type="string">
+            <column name="dia" length="20" />
+        </property>
+        <property name="mes" type="string">
+            <column name="mes" length="20" />
+        </property>
+        <property name="anio" type="string">
+            <column name="anio" length="20" />
+        </property>
+        <property name="coorX" type="string">
+            <column name="coorX" length="100" />
+        </property>
+        <property name="coorY" type="string">
+            <column name="coorY" length="100" />
+        </property>
+        <property name="cliente" type="string">
+            <column name="cliente" length="20" />
+        </property>
+        <property name="subtotalValor0" type="string">
+            <column name="subtotalValor0" length="20" />
+        </property>
+        <property name="subtotalValorIva" type="string">
+            <column name="subtotalValorIVA" length="20" />
+        </property>
+        <property name="total" type="string">
+            <column name="total" length="20" />
+        </property>
+        <property name="comprobanteDeRetencion" type="string">
+            <column name="comprobanteDeRetencion" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

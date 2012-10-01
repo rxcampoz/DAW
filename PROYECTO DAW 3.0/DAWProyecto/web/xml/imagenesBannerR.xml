@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : imagenesBannerR.xml
+    Created on : 2 de diciembre de 2011, 23:07
+    Author     : User
+    Description:
+        Purpose of the document follows.
+-->
+
+<data>
+    <imagenes>
+		<imagen>
+			<path>imgagenes/1.jpg</path>
+			<alt>b1</alt>
+		</imagen>
+		<imagen>
+			<path>imgagenes/2.jpg</path>
+			<alt>b2</alt>
+		</imagen>
+		<imagen>
+			<path>imgagenes/3.jpg</path>
+			<alt>b3</alt>
+		</imagen>
+		<imagen>
+			<path>imgagenes/4.jpg</path>
+			<alt>b4</alt>
+		</imagen>
+	</imagenes>
+</data>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-sep-2011 10:49:45 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="hibernate.Proveedor" table="proveedor" catalog="daw2">
+        <id name="cedulaOruc" type="string">
+            <column name="cedulaOruc" length="100" />
+            <generator class="assigned" />
+        </id>
+        <property name="razonSocial" type="string">
+            <column name="razonSocial" length="100" />
+        </property>
+        <property name="direcion" type="string">
+            <column name="direcion" length="100" />
+        </property>
+        <property name="coorX" type="string">
+            <column name="coorX" length="100" />
+        </property>
+        <property name="coorY" type="string">
+            <column name="coorY" length="100" />
+        </property>
+        <property name="telefono" type="string">
+            <column name="telefono" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

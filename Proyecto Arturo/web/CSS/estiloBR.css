@@ -1,0 +1,36 @@
+/* 
+    Document   : estiloBR
+    Created on : 14-feb-2011, 8:54:55
+    Author     : ArturoTumbaco
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#parr1{
+    width:800px;
+    height:470px;
+    overflow:scroll;
+}
+
+#barraNoticia{
+   width:710px;
+    height:400px;
+    overflow:scroll;
+}
+
+#barraSeccion{
+    height:200px;
+    width:230px;
+    overflow:scroll;
+}
+#barraEmpleado{
+    height:510px;
+    width:554px;
+    overflow:scroll;
+}
+

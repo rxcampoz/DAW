@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-sep-2011 10:49:45 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="hibernate.Facturaegreso" table="facturaegreso" catalog="daw2">
+        <id name="numeroFactura" type="string">
+            <column name="numeroFactura" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="dia" type="string">
+            <column name="dia" length="20" />
+        </property>
+        <property name="mes" type="string">
+            <column name="mes" length="20" />
+        </property>
+        <property name="anio" type="string">
+            <column name="anio" length="20" />
+        </property>
+        <property name="proveedor" type="string">
+            <column name="proveedor" length="20" />
+        </property>
+        <property name="tipoBienOservicio" type="string">
+            <column name="tipoBienOServicio" length="20" />
+        </property>
+        <property name="subtotal0" type="string">
+            <column name="subtotal0" length="20" />
+        </property>
+        <property name="subtotalIva" type="string">
+            <column name="subtotalIVA" length="20" />
+        </property>
+        <property name="derechoAcredito" type="string">
+            <column name="derechoAcredito" length="20" />
+        </property>
+        <property name="tipoDeGasto" type="string">
+            <column name="tipoDeGasto" length="20" />
+        </property>
+        <property name="deducible" type="string">
+            <column name="deducible" length="20" />
+        </property>
+        <property name="total" type="string">
+            <column name="total" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

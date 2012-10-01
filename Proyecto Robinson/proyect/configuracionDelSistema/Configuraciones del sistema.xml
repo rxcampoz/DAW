@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracionDelSistema>
+	<PorcentajeDefinidoDelIva>
+		<fechaIngreso>4-8</fechaIngreso>
+		<porcentaje>12</porcentaje>
+	</PorcentajeDefinidoDelIva>
+	
+	<PorcentajeDePagosDeMultasEIntereses>
+<Intereses>
+		
+		<Anio>2011
+			<Trimestre_1>
+				<Periodo>1-3</Periodo>
+				<Porcentaje>1.085</Porcentaje>
+			</Trimestre_1>
+			<Trimestre_2>
+				<Periodo>4-6</Periodo>
+				<Porcentaje>1.085</Porcentaje>
+			</Trimestre_2>
+			<Trimestre_3>
+				<Periodo>7-9</Periodo>
+				<Porcentaje>1.046</Porcentaje>
+			</Trimestre_3>
+			<Trimestre_4>
+				<Periodo>10-12</Periodo>
+				<Porcentaje></Porcentaje>
+			</Trimestre_4>
+		</Anio>
+	</Intereses>
+	
+		<Multas>
+			<Infracciones>
+				<SiCausaImpuesto>
+					<ImpuestoALaRenta>45</ImpuestoALaRenta>
+					<ImpuestoAlValorAgregado>
+						<Mensual>3</Mensual>
+						<Semestral>NO APLICA</Semestral>
+					</ImpuestoAlValorAgregado>
+				</SiCausaImpuesto>
+				<NoCausaImpuesto>
+					<ImpuestoALaRenta>0.1</ImpuestoALaRenta>
+					<ImpuestoAlValorAgregado>
+						<Mensual>0.1</Mensual>
+						<Semestral>0.1</Semestral>
+					</ImpuestoAlValorAgregado>
+				</NoCausaImpuesto>
+			</Infracciones>
+		</Multas>
+</PorcentajeDePagosDeMultasEIntereses>
+
+<FechasParaLosPagosDelImpuestoPorAnio>
+<NovenoDigito>
+<Digito1>
+	<IpuestoALaRenta>
+		<PersonasNaturales>10-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>10</Mensual>
+		
+			<Semestre1>10-Abril</Semestre1>
+			<Semestre2>10-Enero</Semestre2>
+		
+	</Iva>
+</Digito1>
+<Digito2>
+	<IpuestoALaRenta>
+		<PersonasNaturales>12-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>12</Mensual>
+		
+			<Semestre1>12-Abril</Semestre1>
+			<Semestre2>12-Enero</Semestre2>
+		
+	</Iva>
+</Digito2>
+<Digito3>
+	<IpuestoALaRenta>
+		<PersonasNaturales>14-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>14</Mensual>
+		
+			<Semestre1>14-Abril</Semestre1>
+			<Semestre2>14-Enero</Semestre2>
+		
+	</Iva>
+</Digito3>
+<Digito4>
+	<IpuestoALaRenta>
+		<PersonasNaturales>16-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>16</Mensual>
+		
+			<Semestre1>16-Abril</Semestre1>
+			<Semestre2>16-Enero</Semestre2>
+		
+	</Iva>
+</Digito4>
+<Digito5>
+	<IpuestoALaRenta>
+		<PersonasNaturales>18-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>18</Mensual>
+		
+			<Semestre1>18-Abril</Semestre1>
+			<Semestre2>18-Enero</Semestre2>
+		
+	</Iva>
+</Digito5>
+<Digito6>
+	<IpuestoALaRenta>
+		<PersonasNaturales>20-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>20</Mensual>
+		
+			<Semestre1>20-Abril</Semestre1>
+			<Semestre2>20-Enero</Semestre2>
+		
+	</Iva>
+</Digito6>
+<Digito7>
+	<IpuestoALaRenta>
+		<PersonasNaturales>22-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>22</Mensual>
+		
+			<Semestre1>22-Abril</Semestre1>
+			<Semestre2>22-Enero</Semestre2>
+		
+	</Iva>
+</Digito7>
+<Digito8>
+	<IpuestoALaRenta>
+		<PersonasNaturales>24-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>24</Mensual>
+		
+			<Semestre1>24-Abril</Semestre1>
+			<Semestre2>24-Enero</Semestre2>
+		
+	</Iva>
+</Digito8>
+<Digito9>
+	<IpuestoALaRenta>
+		<PersonasNaturales>26-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>26</Mensual>
+		
+			<Semestre1>26-Abril</Semestre1>
+			<Semestre2>26-Enero</Semestre2>
+		
+	</Iva>
+</Digito9>
+<Digito0>
+	<IpuestoALaRenta>
+		<PersonasNaturales>28-Marzo</PersonasNaturales>
+	</IpuestoALaRenta>
+	<Iva>
+		<Mensual>28</Mensual>
+		
+			<Semestre1>28-Abril</Semestre1>
+			<Semestre2>28-Enero</Semestre2>
+		
+	</Iva>
+</Digito0>
+</NovenoDigito>
+</FechasParaLosPagosDelImpuestoPorAnio>
+
+
+
+<PorcentageSobreLaBaseParaElPagoDelImpuestoALaRenta>no se</PorcentageSobreLaBaseParaElPagoDelImpuestoALaRenta>
+
+<PorcentajeDelIrRetenidoPorDefauld>no se</PorcentajeDelIrRetenidoPorDefauld>
+
+</ConfiguracionDelSistema>
